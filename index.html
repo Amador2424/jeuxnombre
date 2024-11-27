@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devinez le Nombre et Gagnez !</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Devinez le Nombre</h1>
+        <p>Je pense à un nombre entre 1 et 100. Pouvez-vous le deviner ?</p>
+        <input type="number" id="guess" placeholder="Entrez votre nombre" min="1" max="100">
+        <button id="submit-guess">Soumettre</button>
+        <button id="restart-game">Recommencer</button>
+        <p id="message"></p>
+        <div class="wallet">
+            <p>Votre portefeuille : <span id="wallet">0</span> crédits 💰</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
